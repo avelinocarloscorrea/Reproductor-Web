@@ -1,0 +1,203 @@
+[
+    {
+        "title": "Introducción a la Electrónica",
+        "file": "videos/introduccion.mp4",
+        "description": "En este video, exploramos los conceptos básicos de la electrónica. Aprenderás sobre los componentes electrónicos esenciales, como resistencias, capacitores y transistores. También cubriremos la importancia de la electrónica en el mundo moderno.",
+        "importance": "La electrónica es fundamental en la tecnología moderna, ya que todos los dispositivos electrónicos dependen de ella.",
+        "examples": [
+            "Componentes de un circuito básico",
+            "Ejemplo de un circuito simple con LED"
+        ],
+        "usage": "La electrónica se utiliza en dispositivos como teléfonos, computadoras y sistemas de control.",
+        "graphics": "Visualizaciones de circuitos eléctricos y componentes.",
+        "quiz": {
+            "question": "¿Qué es un componente electrónico?",
+            "options": [
+                { "answer": "Un dispositivo que ayuda a controlar la corriente eléctrica", "correct": true },
+                { "answer": "Un tipo de software", "correct": false },
+                { "answer": "Un tipo de circuito impreso", "correct": false }
+            ]
+        }
+    },
+    {
+        "title": "Ley de Ohm",
+        "file": "videos/ley_de_ohm.mp4",
+        "description": "La Ley de Ohm establece la relación entre voltaje, corriente y resistencia en un circuito. Esta ley es fundamental para entender el comportamiento de los circuitos eléctricos. Aprenderás a utilizar la ley para calcular valores y resolver problemas prácticos.",
+        "importance": "Comprender la Ley de Ohm es crucial para diseñar y analizar circuitos eléctricos.",
+        "examples": [
+            "Calcular la resistencia usando V = I * R",
+            "Ejemplo práctico con un circuito de resistencias en serie"
+        ],
+        "usage": "Utilizada para determinar la cantidad de corriente en un circuito dada la resistencia y el voltaje.",
+        "graphics": "Triángulo de Ohm que muestra la relación entre voltaje, corriente y resistencia.",
+        "quiz": {
+            "question": "¿Cuál es la fórmula de la Ley de Ohm?",
+            "options": [
+                { "answer": "V = I / R", "correct": false },
+                { "answer": "V = I * R", "correct": true },
+                { "answer": "R = V + I", "correct": false }
+            ]
+        }
+    },
+    {
+        "title": "Triángulo de Ohm",
+        "file": "videos/triangulo_de_ohm.mp4",
+        "description": "El triángulo de Ohm es una representación visual que ayuda a recordar la relación entre voltaje (V), corriente (I) y resistencia (R). Se utiliza para resolver problemas relacionados con la Ley de Ohm. En este video, aprenderás cómo aplicar el triángulo para simplificar cálculos en circuitos.",
+        "importance": "Es una herramienta útil para estudiantes y profesionales de la electrónica.",
+        "examples": [
+            "Cómo usar el triángulo para calcular voltaje, corriente y resistencia",
+            "Resolución de problemas prácticos utilizando el triángulo"
+        ],
+        "usage": "Aplicado en circuitos para determinar valores desconocidos y facilitar cálculos.",
+        "graphics": "Un diagrama del triángulo de Ohm con las fórmulas relevantes.",
+        "quiz": {
+            "question": "¿Qué representa la parte superior del triángulo de Ohm?",
+            "options": [
+                { "answer": "Voltaje", "correct": true },
+                { "answer": "Resistencia", "correct": false },
+                { "answer": "Corriente", "correct": false }
+            ]
+        }
+    },
+    {
+        "title": "Circuitos en Serie y Paralelo",
+        "file": "videos/circuitos_en_serie_y_paralelo.mp4",
+        "description": "En este video, exploraremos la diferencia entre circuitos en serie y en paralelo, así como sus características y aplicaciones. Aprenderás cómo calcular la resistencia equivalente en ambos tipos de circuitos y su impacto en el flujo de corriente.",
+        "importance": "Conocer la configuración de los circuitos es vital para diseñar sistemas eléctricos eficientes.",
+        "examples": [
+            "Comparación de voltajes en circuitos en serie y paralelo",
+            "Ejemplo práctico de cálculo de resistencia equivalente en un circuito en paralelo"
+        ],
+        "usage": "Utilizado en la construcción de dispositivos eléctricos, como luces en una casa y sistemas de distribución de energía.",
+        "graphics": "Diagramas de circuitos en serie y paralelo con ejemplos numéricos.",
+        "quiz": {
+            "question": "¿En un circuito en serie, la corriente es?",
+            "options": [
+                { "answer": "La misma en todos los componentes", "correct": true },
+                { "answer": "Diferente en cada componente", "correct": false },
+                { "answer": "Suma de todas las corrientes", "correct": false }
+            ]
+        }
+    },
+    {
+        "title": "Componentes Electrónicos Básicos",
+        "file": "videos/componentes_basicos.mp4",
+        "description": "Este video te introduce a los componentes electrónicos más comunes y sus funciones dentro de un circuito. Cubriremos resistencias, capacitores, diodos, transistores y más. Aprenderás cómo se utilizan en diversas aplicaciones y cómo afectan el comportamiento del circuito.",
+        "importance": "Conocer los componentes es esencial para el diseño y la reparación de circuitos.",
+        "examples": [
+            "Resistencias: tipos y cómo calcular su valor",
+            "Capacitores: funciones y aplicaciones en circuitos",
+            "Diodos: uso como rectificadores y limitadores"
+        ],
+        "usage": "Utilizado en la creación de circuitos para diversos dispositivos, desde simples luces hasta complejos sistemas de control.",
+        "graphics": "Imágenes y diagramas de componentes electrónicos comunes.",
+        "quiz": {
+            "question": "¿Qué hace un diodo en un circuito?",
+            "options": [
+                { "answer": "Permite el paso de corriente en una dirección", "correct": true },
+                { "answer": "Almacena energía", "correct": false },
+                { "answer": "Aumenta la resistencia", "correct": false }
+            ]
+        }
+    },
+    {
+        "title": "Fundamentos de la Corriente Alterna (AC) y Continua (DC)",
+        "file": "videos/corriente_alterna_y_continua.mp4",
+        "description": "En este video, discutiremos las diferencias entre la corriente alterna (AC) y la corriente continua (DC). Aprenderás cómo se generan, sus características, aplicaciones y por qué son importantes en el diseño de circuitos.",
+        "importance": "Entender la diferencia entre AC y DC es crucial para trabajar con diversas aplicaciones eléctricas y electrónicas.",
+        "examples": [
+            "Comparación entre un generador de AC y un suministro de DC",
+            "Uso de AC en la transmisión de energía y DC en baterías"
+        ],
+        "usage": "La AC se utiliza para la transmisión de energía eléctrica a larga distancia, mientras que la DC se utiliza en la mayoría de los dispositivos portátiles.",
+        "graphics": "Diagramas que muestran las formas de onda de AC y DC.",
+        "quiz": {
+            "question": "¿Cuál es una característica de la corriente alterna?",
+            "options": [
+                { "answer": "La dirección de la corriente cambia periódicamente", "correct": true },
+                { "answer": "Fluye en una sola dirección", "correct": false },
+                { "answer": "No puede ser transformada a diferentes voltajes", "correct": false }
+            ]
+        }
+    },
+    {
+        "title": "Circuitos RC, RL y RLC",
+        "file": "videos/circuitos_RC_RL_RLC.mp4",
+        "description": "Este video cubre los circuitos RC (resistencia-capacitor), RL (resistencia-inductor) y RLC (resistencia-inductor-capacitor). Aprenderás sobre sus funciones, comportamiento y cómo afectan las señales en un circuito.",
+        "importance": "Comprender estos circuitos es fundamental para el análisis de circuitos más complejos y aplicaciones como filtros y osciladores.",
+        "examples": [
+            "Análisis de un circuito RC y su constante de tiempo",
+            "Ejemplo de un circuito RLC en resonancia"
+        ],
+        "usage": "Aplicado en el diseño de filtros de frecuencia, circuitos de temporización y osciladores.",
+        "graphics": "Diagramas de circuitos RC, RL y RLC con sus respectivas formas de onda.",
+        "quiz": {
+            "question": "¿Qué representa la constante de tiempo en un circuito RC?",
+            "options": [
+                { "answer": "El tiempo que toma para cargar o descargar un capacitor", "correct": true },
+                { "answer": "El tiempo que toma para que la corriente alcance su máximo", "correct": false },
+                { "answer": "El tiempo que toma para que una resistencia se calienta", "correct": false }
+            ]
+        }
+    },
+    {
+        "title": "Transistores: Tipos y Aplicaciones",
+        "file": "videos/transistores.mp4",
+        "description": "En este video, te introducirás a los transistores, uno de los componentes más importantes en la electrónica moderna. Aprenderás sobre los diferentes tipos de transistores (BJT, MOSFET) y sus aplicaciones en amplificadores y interruptores.",
+        "importance": "Los transistores son fundamentales para la amplificación y el control de señales en dispositivos electrónicos.",
+        "examples": [
+            "Uso de un transistor como interruptor",
+            "Construcción de un amplificador básico utilizando transistores"
+        ],
+        "usage": "Empleados en todo, desde radios hasta computadoras y sistemas de control automático.",
+        "graphics": "Diagramas de circuitos que muestran el uso de transistores en diversas aplicaciones.",
+        "quiz": {
+            "question": "¿Qué tipo de transistor se utiliza comúnmente en aplicaciones digitales?",
+            "options": [
+                { "answer": "BJT", "correct": false },
+                { "answer": "MOSFET", "correct": true },
+                { "answer": "SCR", "correct": false }
+            ]
+        }
+    },
+    {
+        "title": "Fundamentos de la Electricidad: Voltaje, Corriente y Resistencia",
+        "file": "videos/fundamentos_de_electricidad.mp4",
+        "description": "Este video explora los conceptos de voltaje, corriente y resistencia en profundidad. Aprenderás cómo se miden y su importancia en los circuitos eléctricos.",
+        "importance": "La comprensión de estos conceptos es la base de cualquier estudio de la electrónica.",
+        "examples": [
+            "Cómo medir el voltaje y la corriente con un multímetro",
+            "Ejemplo de cómo la resistencia afecta la corriente en un circuito"
+        ],
+        "usage": "Estos conceptos son aplicables a cualquier tipo de circuito eléctrico y son esenciales para el diseño y análisis.",
+        "graphics": "Diagramas que ilustran la relación entre voltaje, corriente y resistencia.",
+        "quiz": {
+            "question": "¿Qué mide un voltímetro?",
+            "options": [
+                { "answer": "Corriente", "correct": false },
+                { "answer": "Voltaje", "correct": true },
+                { "answer": "Resistencia", "correct": false }
+            ]
+        }
+    },
+    {
+        "title": "Fuentes de Alimentación",
+        "file": "videos/fuentes_de_alimentacion.mp4",
+        "description": "En este video, discutirás las diferentes fuentes de alimentación utilizadas en la electrónica, incluyendo fuentes de DC y AC. Aprenderás cómo se diseñan y sus aplicaciones en circuitos.",
+        "importance": "Las fuentes de alimentación son cruciales para proporcionar energía a los circuitos y dispositivos.",
+        "examples": [
+            "Comparación entre fuentes de alimentación lineales y conmutadas",
+            "Diseño de una fuente de alimentación simple"
+        ],
+        "usage": "Utilizadas en casi todos los dispositivos electrónicos para convertir y regular la energía eléctrica.",
+        "graphics": "Diagramas de diferentes tipos de fuentes de alimentación y su funcionamiento.",
+        "quiz": {
+            "question": "¿Qué es una fuente de alimentación conmutada?",
+            "options": [
+                { "answer": "Convierte la corriente alterna en corriente continua de manera eficiente", "correct": true },
+                { "answer": "Solo proporciona corriente continua", "correct": false },
+                { "answer": "No regula el voltaje", "correct": false }
+            ]
+        }
+    }
+]
